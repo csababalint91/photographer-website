@@ -1,0 +1,36 @@
+JavaScript
+
+document.addEventListener("DOMContentLoaded", function () {
+  var button = document.getElementById("btn1");
+  
+  button.addEventListener("click", function() {
+    var box = document.getElementById("box");
+  	box.classList.add("box");
+  });
+});
+
+
+
+CSS 
+.box-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box-hidden {
+	display: none;
+}
+
+.box {
+	display: block;
+	height: 300px;
+	width: 300px;
+	background-color: #7FDBFF;
+}
+
+.arrow {
+	height: 15px;
+	background-color: #ffffff; 
+}
